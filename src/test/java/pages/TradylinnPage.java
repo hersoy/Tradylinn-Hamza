@@ -23,4 +23,7 @@ public class TradylinnPage {
     @FindBy(xpath = "//button[text()='Giriş Yap']")
     public WebElement girisYapButon;
 
+    @FindBy(xpath = "//*[@class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--wcfm-store-manager']")
+    public WebElement storeManagerButon;
+
 }

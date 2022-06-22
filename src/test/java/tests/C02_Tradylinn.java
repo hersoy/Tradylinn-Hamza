@@ -21,6 +21,8 @@ Actions actions=new Actions(Driver.getDriver());
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         Thread.sleep(2000);
         tlp.girisYapButon.click();
+
+        tlp.storeManagerButon.click();
     }
 
 }
